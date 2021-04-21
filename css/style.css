@@ -7,9 +7,22 @@ body{background-color: aliceblue;
             border-radius: 3px;
             max-width: 70%;
             margin: 15vh auto;
-
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 3rem;
  }
 .container h1{text-transform: uppercase;
             text-align: center;
+
+}
+picture{ justify-content: center;
+
+ }
+img{    width: 70%;
+    object-fit: cover;
+    border: .5px solid gray;
+    border-radius: .3rem;
 
 }
