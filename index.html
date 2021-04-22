@@ -14,7 +14,10 @@
         <h2>Probar picture media</h2>
 
         <picture>
-            <img src="img/catlongscreen.jpg" alt="" srcset="">
+            <source srcset="img/catshortscreen.jpg" type="image/jpg" media="(max-width:480px)">
+            <source srcset="img/catmediumscreen.jpg" type="image/jpg" media="(max-width:768px)">
+          
+            <img src="img/catlongscreen.jpg" alt="ft cat" srcset="">
         </picture>
     </div>
 
